@@ -1,0 +1,52 @@
+email {
+    text-transform: lowercase;
+}
+
+texto {
+    color: #0000FF;
+}
+
+style1 {
+    color: #FF0000;
+}
+
+background {
+    color: #6666f1;
+}
+
+logotipo {
+    align-content: center;
+    padding-top: 600px;
+}
+
+div{
+    background-color: #6666f1;
+    height: 200px;
+    padding-top: 0.1%;
+    padding-left: 0.1%;
+}
+
+header{
+    background-color: #6666f1;   
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#button{
+    display: inline-block;
+    background-color: #F25A70;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
+    box-shadow: 5px 5px 20px black;
+}
