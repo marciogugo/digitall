@@ -6,17 +6,13 @@ texto {
     color: #0000FF;
 }
 
-style1 {
-    color: #FF0000;
-}
-
 background {
     color: #6666f1;
 }
 
 img {
-    width: 90px;
-    height: 60px;
+    width: 190px;
+    height: 190px;
 }
 
 logotipo {
@@ -87,4 +83,3 @@ a::before { /* aula 25 - pseudo elemento*/
     box-shadow: 5px 5px 20px black;
     margin-right: 0px;
 }
-
