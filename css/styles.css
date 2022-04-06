@@ -1,18 +1,14 @@
-email {
-    text-transform: lowercase;
-}
-
-texto {
-    color: #0000FF;
-}
-
-background {
-    color: #6666f1;
-}
-
 img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
+}
+
+body {
+    background-image: url('/assets/img/geometric.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 logotipo {
@@ -24,6 +20,8 @@ header {
     display: flex; /*aula 25*/
     justify-content: space-between; /*aula 25*/
     background-color: #6666f1;   
+    background-image: linear-gradient(to top left, #2d478e,#6666f1);
+    /* background-image: linear-gradient(to top left, #000d65,#6666f1); */
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
@@ -38,7 +36,7 @@ a {
     align-items: center; /* aula 25 - pseudo elemento*/
     color: white;
     font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-family: "Raleway", "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
@@ -68,17 +66,53 @@ a::before { /* aula 25 - pseudo elemento*/
     transition: none;
 }  
 
-#button:hover {
+#button1:hover {
     background-color: #6666f1;
     transition-property: background-color 1s;
   }
  
-#button {
+#button1 {
     display: inline-block;
     background-color: #F25A70;
-    padding: 10px 20px;
+    padding: 10px 20px 10px;
     height: 50px;
     line-height: 50px; 
     box-shadow: 5px 5px 20px black;
     margin-right: 0px;
+}
+
+#section {
+    display: flex;
+    width: 485px;
+    height: 797px;
+    margin-top: 80px;
+}
+
+.button2 {
+    display: inline-block;
+    background-color: #F25A70;
+    height: 84px;
+    width: 230px;
+    margin-left: 130px;
+    margin-top: 96px;
+    font-family: 'Raleway';
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 5px 5px 20px #F25A70;
+}
+
+.button3 {
+    display: inline-block;
+    background-color: #F25A70;
+    height: 54px;
+    width: 170px;
+    margin-left: 50px;
+    font-family: 'Raleway';
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 5px 5px 20px #F25A70;
 }
