@@ -85,19 +85,31 @@ a::before { /* aula 25 - pseudo elemento*/
     /* margin-right: 30px; */
 }
 
-.divEsquerda {
-    background-image:  url('/assets/img/geometric.png'); 
-    background-position: center;
-    background-attachment: fixed;
-    /* filter: blur(4px); */
-}
 .divEsquerda, .divDireita {
     width: 1040px;
     height: 500px;
-    /* background-color: yellow; */
     text-align: center;
     border-right: #000 solid;
     border-bottom: #000 solid;
+}
+
+.divEsquerda {
+    width: 2400px;
+}
+
+.divSkills {
+    color: white;
+    /* background-color: yellow; */
+}
+
+.h1-skills {
+    color: yellow;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    /* height: 50px; */
 }
 
 .button2 {
@@ -119,6 +131,11 @@ a::before { /* aula 25 - pseudo elemento*/
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    text-shadow: 5px 5px 5px #000;
     box-shadow: 5px 5px 20px #F25A70;
 }
 
+.a-skills {
+    display: inline-flex;
+    align-items: center;
+}
