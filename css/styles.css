@@ -20,7 +20,6 @@ header {
     display: flex; /*aula 25*/
     justify-content: space-between; /*aula 25*/
     background-color: #6666f1;   
-    /* background-image: linear-gradient(to top left, #2d478e,#6666f1); */
     background-image: linear-gradient(to top left, #000d65,#6666f1);
     border-bottom: 10px solid #000;
     padding: 10px 20px;
@@ -135,11 +134,7 @@ a::before { /* aula 25 - pseudo elemento*/
     box-shadow: 5px 5px 20px #F25A70;
 }
 
-#button2::after {
-    content: '';
-}
-
 .a-skills {
-    display: inline-flex;
+        display: inline-flex;
     align-items: center;
 }
