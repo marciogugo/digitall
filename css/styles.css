@@ -4,7 +4,7 @@ img {
 }
 
 body {
-    background-image: url('/assets/img/geometric.png'); 
+    background-image: url('../assets/img/geometric.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,6 +133,10 @@ a::before { /* aula 25 - pseudo elemento*/
     text-decoration: none;
     text-shadow: 5px 5px 5px #000;
     box-shadow: 5px 5px 20px #F25A70;
+}
+
+#button2::after {
+    content: '';
 }
 
 .a-skills {
