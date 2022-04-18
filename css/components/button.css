@@ -1,0 +1,31 @@
+.button:hover {
+    background-color: #6666f1;
+    transition-property: background-color 1s;
+  }
+ 
+.button {
+    display: inline-block;
+    background-color: #F25A70;
+    padding: 0px 20px;
+    height: 50px;
+    line-height: 50px; 
+    box-shadow: 5px 5px 20px black;
+    text-decoration: none;
+}
+
+.fade {
+  background-color: #DB1F48;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+.fade:hover {
+  background-color: #004369;
+}
+
+.fade:focus,
+.fade:active {
+  background-color: black;
+  transition: none;
+}  
+

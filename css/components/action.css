@@ -1,0 +1,19 @@
+.action {
+    display: inline-flex; /* aula 25 - pseudo elemento*/
+    padding-top: 80px; /*porque meu logo é maior que o exemplo */
+    align-items: center; /* aula 25 - pseudo elemento*/
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway", "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.action::before { /* aula 25 - pseudo elemento*/
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

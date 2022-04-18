@@ -1,0 +1,13 @@
+.header {
+    display: flex; /*aula 25*/
+    justify-content: space-between; /*aula 25*/
+    background-color: #6666f1;   
+    background-image: linear-gradient(to top left, #000d65,#6666f1);
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+.logo {
+    align-content: left;
+    padding-top: 600px;
+}
